@@ -15,7 +15,7 @@ And replace the `/path/to` with the path to it.
 - To enable sky radiance (white look) modify `rc5.slang` to have `ENABLE_SUN = true`
 - To improve performance, set `BILINEAR_FIX_ENABLED = false` in all rc[0-5].slang files.
 
-These are the ulgiest shaders i've ever written and i'm sorry.
+from a code perspective, these are wildly ugly shaders and i'm sorry.
 
 ![image](https://github.com/user-attachments/assets/4a4ad515-cdea-48c4-b44b-4505c66c06b6)
 
