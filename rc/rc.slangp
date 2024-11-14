@@ -1,0 +1,83 @@
+shaders = 15
+shader0 = jumpflood_init.slang
+alias0 = InitPass
+scale_type0 = source
+filter_linear0 = false
+
+shader1 = jumpflood1.slang
+alias1 = Pass1
+float_framebuffer1 = true
+scale_type1 = source
+filter_linear1 = false
+
+shader2 = jumpflood2.slang
+alias2 = Pass2
+float_framebuffer2 = true
+scale_type2 = source
+filter_linear2 = false
+
+shader3 = jumpflood3.slang
+alias3 = Pass3
+float_framebuffer3 = true
+scale_type3 = source
+filter_linear3 = false
+
+shader4 = jumpflood4.slang
+alias4 = Pass4
+float_framebuffer4 = true
+scale_type4 = source
+filter_linear4 = false
+
+shader5 = jumpflood5.slang
+alias5 = Pass5
+float_framebuffer5 = true
+scale_type5 = source
+filter_linear5 = false
+
+shader6 = jumpflood6.slang
+alias6 = Pass6
+float_framebuffer6 = true
+scale_type6 = source
+filter_linear6 = false
+
+shader7 = jumpflood7.slang
+alias7 = Pass7
+float_framebuffer7 = true
+scale_type7 = source
+filter_linear7 = false
+
+shader8 = distance.slang
+alias8 = DistanceField
+scale_type8 = source
+filter_linear8 = false
+
+shader9 = rc5.slang
+alias9 = RC5
+scale_type9 = source
+filter_linear9 = true
+
+shader10 = rc4.slang
+alias10 = RC4
+scale_type10 = source
+filter_linear10 = true
+
+shader11 = rc3.slang
+alias11 = RC3
+scale_type11 = source
+filter_linear11 = true
+
+shader12 = rc2.slang
+alias12 = RC2
+scale_type12 = source
+filter_linear12 = true
+
+shader13 = rc1.slang
+alias13 = RC1
+scale_type13 = source
+filter_linear13 = true
+
+shader14 = rc0.slang
+alias14 = RC0
+scale_type14 = viewport
+filter_linear14 = false
+
