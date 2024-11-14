@@ -1,5 +1,16 @@
 # Global Illumination
 
+Add:
+
+```toml
+[renderer]
+filters = [
+  "/path/to/rc/rc.slangp"
+]
+```
+
+And replace the `/path/to` with the path to it.
+
 - Ensure `opacity` is less than 0.99 for the editor.
 - To enable sky radiance (white look) modify `rc5.slang` to have `ENABLE_SUN = true`
 - To improve performance, set `BILINEAR_FIX_ENABLED = false` in all rc[0-5].slang files.
